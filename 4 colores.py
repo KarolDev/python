@@ -1,7 +1,7 @@
 import turtle        
 tortuga = turtle.Pen()
 turtle.bgcolor("black")
-colores = ["turquoise","tan","thistle","snow"]
+colores = ["turquoise","blue","thistle","snow"]
 for distancia in range(150):
     tortuga.pencolor(colores[distancia%4])
     tortuga.circle(distancia)
